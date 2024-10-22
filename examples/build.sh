@@ -1,0 +1,1 @@
+g++ main.cpp -I ../compiled-static/include -L ../compiled-static/lib64 -pthread -lprometheus-cpp-pull -lprometheus-cpp-core  

@@ -1,10 +1,10 @@
 #!/bin/bash
 
-rm -rf _build
+rm -rf build
 rm -rf compiled-static/include
 rm -rf compiled-static/lib64
-mkdir _build
-cd _build
+mkdir build
+cd build
 
 cmake .. -DENABLE_PUSH=OFF -DENABLE_COMPRESSION=OFF
 

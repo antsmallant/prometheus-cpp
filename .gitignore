@@ -5,3 +5,6 @@ _*/
 doc/html/
 .vscode
 build
+compiled-static/
+a.out
+examples/a.out
